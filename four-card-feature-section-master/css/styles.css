@@ -14,4 +14,7 @@ body {
     height: 100%;
     grid-gap: 13px;
     background: #fafafa;
+    grid-template-areas: "area-1 area-1 area-1 area-1 area-1"
+                         ". area-2 area-3 area-4 ."
+                         ". footer footer footer .";;
 }
