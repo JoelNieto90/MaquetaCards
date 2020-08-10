@@ -47,3 +47,10 @@ body {
 .text-area-1 {
     text-align: center;
 }
+
+.area1-text-1 {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 39px;
+    margin-top: 85px;
+}
