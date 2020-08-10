@@ -63,3 +63,10 @@ body {
     margin-top: -40px;
     font-size: 40px;
 }
+
+.area1-text-3 {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    margin-top: -24px;
+    font-size: 17px;
+}
