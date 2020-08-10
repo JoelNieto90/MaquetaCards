@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /*background-image: url('../design/desktop-design.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 300px 1fr 30px;
+    grid-template-columns: 175px 1fr 1fr 1fr 175px;
+    height: 100%;
+    grid-gap: 13px;
+    background: #fafafa;
+    grid-template-areas: "area-1 area-1 area-1 area-1 area-1"
+                         ". area-2 area-3 area-4 ."
+                         ". footer footer footer .";;
+}
+
+.area-1 {
+    grid-area: area-1;
+}
+
+.area-2 {
+    grid-area: area-2;
+}
+
+.area-3 {
+    grid-area: area-3;
+}
+
+.area-4 {
+    grid-area: area-4;
+}
+
+.footer {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer;
+}
+
+
+/*Encabezado o header*/
+.text-area-1 {
+    text-align: center;
+}
+
+.area1-text-1 {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    font-size: 39px;
+    margin-top: 85px;
+}
+
+.area1-text-2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-top: -40px;
+    font-size: 40px;
+}
+
+.area1-text-3 {
+    color: hsl(229, 6%, 66%);
+    font-weight: 400;
+    margin-top: -24px;
+    font-size: 17px;
+}
+
+/*Seccion de las card*/
+.item-card {
+    height: 270px;
+    padding: 10px 35px;
+    margin-bottom: 16px;
+    background: white;
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+    border-radius: 5px;
+}
+
+.item-card-h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: hsl(234, 12%, 34%);
+}
+
+.item-card-p {
+    margin-top: -14px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.item-card-1-img {
+    margin-top: 33px;
+    margin-right: 5px;
+    float: right;
+    /*border: 1px solid aqua;*/
+}
+
+/*Estilo para centrar mi elemento*/
+.item-card-1 {
+    display: inherit;
+    justify-items: center;
+    align-items: center;
+}
+
+.item-car-border1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.item-car-border2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.item-car-border3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.item-car-border4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
