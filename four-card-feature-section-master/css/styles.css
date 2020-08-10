@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    /*background-image: url('../design/desktop-design.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;*/
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 300px 1fr 30px;
+    grid-template-columns: 175px 1fr 1fr 1fr 175px;
+    height: 100%;
+    grid-gap: 13px;
+    background: #fafafa;
+}
