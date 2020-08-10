@@ -41,3 +41,9 @@ body {
     align-items: center;
     grid-area: footer;
 }
+
+
+/*Encabezado o header*/
+.text-area-1 {
+    text-align: center;
+}
