@@ -56,3 +56,10 @@ body {
     font-size: 39px;
     margin-top: 85px;
 }
+
+.area1-text-2 {
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+    margin-top: -40px;
+    font-size: 40px;
+}
