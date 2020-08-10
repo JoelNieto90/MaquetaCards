@@ -124,3 +124,54 @@ body {
 .item-car-border4 {
     border-top: 4px solid hsl(212, 86%, 64%);
 }
+
+
+/*Version */
+@media screen and (max-width: 375px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px;
+        grid-template-areas: "area-1"
+                             "area-2" 
+                             "area-3" 
+                             "area-4"
+                             "footer";
+        padding: 33px;
+        background: #e9e7e791;
+    }
+    .area1-text-1 {
+        font-size: 19px;
+    }
+    
+    .area1-text-2 {
+        font-size: 21px;
+        margin-top: -20px;
+    }
+    
+    .area1-text-3 {
+        font-size: 12px;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .item-card {
+        height: 180px;
+    }
+
+    .item-card-h3 {
+        font-size: 15px;
+    }
+    
+    .item-card-p {
+        margin-top: -14px;
+        font-size: 12px;
+    }
+    
+    .item-card-1-img {
+        margin-top: 20px;
+        width: 20%;
+    }
+}
