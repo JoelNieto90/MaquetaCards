@@ -124,3 +124,20 @@ body {
 .item-car-border4 {
     border-top: 4px solid hsl(212, 86%, 64%);
 }
+
+
+/*Version */
+@media screen and (max-width: 375px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 250px;
+        grid-template-areas: "area-1"
+                             "area-2" 
+                             "area-3" 
+                             "area-4"
+                             "footer";
+        padding: 33px;
+        background: #e9e7e791;
+    }
+}
