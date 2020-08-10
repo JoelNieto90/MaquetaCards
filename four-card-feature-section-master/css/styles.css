@@ -101,3 +101,14 @@ body {
     float: right;
     /*border: 1px solid aqua;*/
 }
+
+/*Estilo para centrar mi elemento*/
+.item-card-1 {
+    display: inherit;
+    justify-items: center;
+    align-items: center;
+}
+
+.item-car-border1 {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
