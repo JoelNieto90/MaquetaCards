@@ -175,3 +175,52 @@ body {
         width: 20%;
     }
 }
+
+/*Version Tablet*/
+@media screen and (max-width: 768px){
+    .container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "area-1 area-1"
+                             "area-2 area-2" 
+                             "area-3 area-3" 
+                             "area-4 area-4"
+                             "footer footer";
+        padding: 33px;
+        background: #e9e7e791;
+    }
+
+    .item-card-1 {
+        display: block;
+    }
+
+    
+
+    .area1-text-1 {
+        margin-top: 50px;
+        font-size: 30px;
+    }
+    
+    .area1-text-2 {
+        font-size: 31px;
+        margin-top: -20px;
+    }
+    
+    .area1-text-3 {
+        font-size: 13px;
+        margin-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+    }
+
+    .item-card {
+        height: 180px;
+    }
+    
+    .item-card-1-img {
+        width: 60px;
+        margin-top: -10px;
+    }
+}
