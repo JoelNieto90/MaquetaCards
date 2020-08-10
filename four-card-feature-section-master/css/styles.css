@@ -18,3 +18,26 @@ body {
                          ". area-2 area-3 area-4 ."
                          ". footer footer footer .";;
 }
+
+.area-1 {
+    grid-area: area-1;
+}
+
+.area-2 {
+    grid-area: area-2;
+}
+
+.area-3 {
+    grid-area: area-3;
+}
+
+.area-4 {
+    grid-area: area-4;
+}
+
+.footer {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    grid-area: footer;
+}
