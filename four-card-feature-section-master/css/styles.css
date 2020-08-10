@@ -112,3 +112,15 @@ body {
 .item-car-border1 {
     border-top: 4px solid hsl(180, 62%, 55%);
 }
+
+.item-car-border2 {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.item-car-border3 {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.item-car-border4 {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
