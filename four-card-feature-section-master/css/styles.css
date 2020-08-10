@@ -81,3 +81,23 @@ body {
     border-color: #dfe1e500;
     border-radius: 5px;
 }
+
+.item-card-h3 {
+    font-weight: 600;
+    font-size: 22px;
+    color: hsl(234, 12%, 34%);
+}
+
+.item-card-p {
+    margin-top: -14px;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(229, 6%, 66%);
+}
+
+.item-card-1-img {
+    margin-top: 33px;
+    margin-right: 5px;
+    float: right;
+    /*border: 1px solid aqua;*/
+}
